@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Viro Starter Kit
 
 This is a new [**React Native**](https://reactnative.dev) project, set up with `@reactvision/react-viro`.
@@ -83,3 +84,6 @@ Check out our [documentation](https://viro-community.readme.io/) for guides, exa
 ## Need help?
 
 [Reach us in Discord.](https://discord.gg/YfxDBGTxvG) or submit an issue!
+=======
+# AR_React_Native_Jorge
+>>>>>>> 434030d77113bb65b61535d4b98ae3dc4fc75a23
