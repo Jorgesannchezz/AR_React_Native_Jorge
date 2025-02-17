@@ -1,89 +1,97 @@
-<<<<<<< HEAD
-# Viro Starter Kit
+AR React Native Jorge
+Este repositorio contiene una aplicación React Native para AR (Realidad Aumentada). A continuación se detallan los pasos para configurar y ejecutar la aplicación en tu entorno local.
 
-This is a new [**React Native**](https://reactnative.dev) project, set up with `@reactvision/react-viro`.
+Requisitos previos
+Antes de comenzar, asegúrate de tener instalados los siguientes componentes en tu máquina:
 
-## How to Install Viro in an existing project?
+Node.js: Descargar Node.js
+npm o yarn: npm se instala automáticamente con Node.js, pero puedes usar Yarn si prefieres.
+React Native CLI (si usas React Native CLI en vez de Expo):
+bash
+Copiar
+Editar
+npm install -g react-native-cli
+Android Studio o Xcode (para Android o iOS respectivamente).
+Para instalar Android Studio y Xcode para dispositivos iOS, sigue la documentación oficial de React Native para configurar tu entorno de desarrollo.
+Instalación
+Sigue los siguientes pasos para instalar y ejecutar la aplicación en tu máquina.
 
-If you are integrating ViroReact into an existing project, have a look at our [Installation instructions](https://viro-community.readme.io/docs/installation-instructions).
+1. Clonar el repositorio
+Primero, clona el repositorio a tu máquina local:
 
-## Getting Started
+bash
+Copiar
+Editar
+git clone https://github.com/Jorgesannchezz/AR_React_Native_Jorge.git
+2. Navegar al directorio del proyecto
+Accede al directorio del proyecto:
 
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions. Stop before you get to the `Creating a new application` section; we have done that for you!
+bash
+Copiar
+Editar
+cd AR_React_Native_Jorge
+3. Instalar dependencias
+Instala las dependencias necesarias utilizando npm o yarn. Si usas npm, ejecuta:
 
-## Step 1: Install Dependencies
-
-```bash
+bash
+Copiar
+Editar
 npm install
-```
+Si prefieres yarn, ejecuta:
 
-### iOS only:
+bash
+Copiar
+Editar
+yarn install
+4. Configurar entorno de desarrollo
+Para Android:
+Instalar Android Studio: Asegúrate de tener Android Studio instalado y configurado. Esto incluye tener el emulador de Android configurado y las dependencias de SDK necesarias.
 
-```bash
-cd ios
-pod install
-cd ..
-```
+Configurar variables de entorno: Asegúrate de que las variables de entorno de Android estén correctamente configuradas en tu sistema. Esto se puede hacer agregando lo siguiente en tu archivo ~/.bash_profile o ~/.zshrc (dependiendo de tu terminal):
 
-## Step 2: Start the Metro Server
+bash
+Copiar
+Editar
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+Ejecutar en un dispositivo/emulador Android:
+Si todo está configurado correctamente, puedes ejecutar el siguiente comando para lanzar la aplicación en un emulador o dispositivo conectado:
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-npm start
-```
-
-## Step 3: Start your Application
-
-> **Warning**: Due to limitations of the Apple Simulator and the Android Emulator, you must run your project on a physical device.
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-```bash
-# iOS
-npx react-native run-ios
-# Android
+bash
+Copiar
+Editar
 npx react-native run-android
-```
+Para iOS:
+Instalar Xcode: Asegúrate de tener Xcode instalado en tu máquina.
 
-If everything is set up _correctly_, you should see your new app running on you device.
+Instalar dependencias de iOS: Si estás usando iOS, ejecuta este comando para instalar las dependencias de CocoaPods:
 
-#### Install CocoaPods
-
-```bash
+bash
+Copiar
+Editar
 cd ios
 pod install
 cd ..
-```
+Ejecutar en un dispositivo/emulador iOS:
+Si todo está configurado correctamente, puedes ejecutar el siguiente comando para lanzar la aplicación en el emulador de iOS:
 
-```bash
-# using npm
-npm run ios
+bash
+Copiar
+Editar
+npx react-native run-ios
+Solución de problemas
+Si experimentas problemas con las dependencias, intenta borrar la caché de npm/yarn y vuelve a instalar:
 
-# OR using Yarn
-yarn ios
-```
+bash
+Copiar
+Editar
+npm cache clean --force
+npm install
+O si usas yarn:
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 4: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-## Next Steps
-
-Check out our [documentation](https://viro-community.readme.io/) for guides, examples, and more!
-
-## Need help?
-
-[Reach us in Discord.](https://discord.gg/YfxDBGTxvG) or submit an issue!
-=======
-# AR_React_Native_Jorge
->>>>>>> 434030d77113bb65b61535d4b98ae3dc4fc75a23
+bash
+Copiar
+Editar
+yarn cache clean
+yarn install
+Si tienes problemas con la ejecución en Android, asegúrate de tener el emulador correctamente configurado o de que un dispositivo Android esté conectado.
