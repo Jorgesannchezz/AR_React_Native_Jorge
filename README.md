@@ -1,16 +1,17 @@
-AR React Native Jorge
+# AR React Native Jorge
+
 Este repositorio contiene una aplicación React Native para AR (Realidad Aumentada). A continuación se detallan los pasos para configurar y ejecutar la aplicación en tu entorno local.
 
-Requisitos previos
+## Requisitos previos
+
 Antes de comenzar, asegúrate de tener instalados los siguientes componentes en tu máquina:
 
-Node.js: Descargar Node.js
-npm o yarn: npm se instala automáticamente con Node.js, pero puedes usar Yarn si prefieres.
-React Native CLI (si usas React Native CLI en vez de Expo):
-bash
-Copiar
-Editar
-npm install -g react-native-cli
+- **Node.js**: [Descargar Node.js](https://nodejs.org/)
+- **npm o yarn**: npm se instala automáticamente con Node.js, pero puedes usar [Yarn](https://yarnpkg.com/) si prefieres.
+- **React Native CLI** (si usas React Native CLI en vez de Expo):
+  ```bash
+  npm install -g react-native-cli
+
 Android Studio o Xcode (para Android o iOS respectivamente).
 Para instalar Android Studio y Xcode para dispositivos iOS, sigue la documentación oficial de React Native para configurar tu entorno de desarrollo.
 Instalación
@@ -91,6 +92,23 @@ O si usas yarn:
 
 bash
 Copiar
+Editar
+yarn cache clean
+yarn install
+Si tienes problemas con la ejecución en Android, asegúrate de tener el emulador correctamente configurado o de que un dispositivo Android esté conectado.
+
+markdown
+Copiar
+Editar
+
+Este código Markdown está listo para pegarse directamente en un archivo `README.md` de tu repositorio en GitHub. Copia el contenido y sigue estos pasos:
+
+1. Entra a tu repositorio en GitHub.
+2. Haz clic en el botón **Add file** > **Create new file**.
+3. Nombra el archivo como `README.md` y pega el contenido que te proporcioné.
+4. Haz clic en **Commit new file**.
+
+¡Listo! Ya tendrás un `README.md` bien configurado para tu repositorio. Si necesitas hacer alguna mod
 Editar
 yarn cache clean
 yarn install
