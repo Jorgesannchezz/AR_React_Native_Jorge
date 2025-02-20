@@ -11,105 +11,109 @@ Antes de comenzar, asegúrate de tener instalados los siguientes componentes en 
 - **React Native CLI** (si usas React Native CLI en vez de Expo):
   ```bash
   npm install -g react-native-cli
+  ```
+- **Android Studio o Xcode** (para Android o iOS respectivamente).
 
-Android Studio o Xcode (para Android o iOS respectivamente).
 Para instalar Android Studio y Xcode para dispositivos iOS, sigue la documentación oficial de React Native para configurar tu entorno de desarrollo.
-Instalación
+
+## Instalación
+
 Sigue los siguientes pasos para instalar y ejecutar la aplicación en tu máquina.
 
-1. Clonar el repositorio
+### 1. Clonar el repositorio
+
 Primero, clona el repositorio a tu máquina local:
 
-bash
-Copiar
-Editar
+```bash
 git clone https://github.com/Jorgesannchezz/AR_React_Native_Jorge.git
-2. Navegar al directorio del proyecto
+```
+
+### 2. Navegar al directorio del proyecto
+
 Accede al directorio del proyecto:
 
-bash
-Copiar
-Editar
+```bash
 cd AR_React_Native_Jorge
-3. Instalar dependencias
+```
+
+### 3. Instalar dependencias
+
 Instala las dependencias necesarias utilizando npm o yarn. Si usas npm, ejecuta:
 
-bash
-Copiar
-Editar
+```bash
 npm install
+```
+
 Si prefieres yarn, ejecuta:
 
-bash
-Copiar
-Editar
+```bash
 yarn install
-4. Configurar entorno de desarrollo
-Para Android:
-Instalar Android Studio: Asegúrate de tener Android Studio instalado y configurado. Esto incluye tener el emulador de Android configurado y las dependencias de SDK necesarias.
+```
 
-Configurar variables de entorno: Asegúrate de que las variables de entorno de Android estén correctamente configuradas en tu sistema. Esto se puede hacer agregando lo siguiente en tu archivo ~/.bash_profile o ~/.zshrc (dependiendo de tu terminal):
+### 4. Configurar entorno de desarrollo
 
-bash
-Copiar
-Editar
+#### Para Android:
+
+- **Instalar Android Studio**: Asegúrate de tener Android Studio instalado y configurado. Esto incluye tener el emulador de Android configurado y las dependencias de SDK necesarias.
+- **Configurar variables de entorno**: Asegúrate de que las variables de entorno de Android estén correctamente configuradas en tu sistema. Esto se puede hacer agregando lo siguiente en tu archivo `~/.bash_profile` o `~/.zshrc` (dependiendo de tu terminal):
+
+```bash
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-Ejecutar en un dispositivo/emulador Android:
+```
+
+- **Ejecutar en un dispositivo/emulador Android**:
+
 Si todo está configurado correctamente, puedes ejecutar el siguiente comando para lanzar la aplicación en un emulador o dispositivo conectado:
 
-bash
-Copiar
-Editar
+```bash
 npx react-native run-android
-Para iOS:
-Instalar Xcode: Asegúrate de tener Xcode instalado en tu máquina.
+```
 
-Instalar dependencias de iOS: Si estás usando iOS, ejecuta este comando para instalar las dependencias de CocoaPods:
+#### Para iOS:
 
-bash
-Copiar
-Editar
+- **Instalar Xcode**: Asegúrate de tener Xcode instalado en tu máquina.
+- **Instalar dependencias de iOS**: Si estás usando iOS, ejecuta este comando para instalar las dependencias de CocoaPods:
+
+```bash
 cd ios
 pod install
 cd ..
-Ejecutar en un dispositivo/emulador iOS:
+```
+
+- **Ejecutar en un dispositivo/emulador iOS**:
+
 Si todo está configurado correctamente, puedes ejecutar el siguiente comando para lanzar la aplicación en el emulador de iOS:
 
-bash
-Copiar
-Editar
+```bash
 npx react-native run-ios
-Solución de problemas
+```
+
+## Solución de problemas
+
 Si experimentas problemas con las dependencias, intenta borrar la caché de npm/yarn y vuelve a instalar:
 
-bash
-Copiar
-Editar
+```bash
 npm cache clean --force
 npm install
+```
+
 O si usas yarn:
 
-bash
-Copiar
-Editar
+```bash
 yarn cache clean
 yarn install
+```
+
 Si tienes problemas con la ejecución en Android, asegúrate de tener el emulador correctamente configurado o de que un dispositivo Android esté conectado.
 
-markdown
-Copiar
-Editar
+---
 
-Este código Markdown está listo para pegarse directamente en un archivo `README.md` de tu repositorio en GitHub. Copia el contenido y sigue estos pasos:
+Este código Markdown está listo para pegarse directamente en un archivo `README.md` de tu repositorio en GitHub. Sigue estos pasos:
 
 1. Entra a tu repositorio en GitHub.
 2. Haz clic en el botón **Add file** > **Create new file**.
-3. Nombra el archivo como `README.md` y pega el contenido que te proporcioné.
+3. Nombra el archivo como `README.md` y pega el contenido.
 4. Haz clic en **Commit new file**.
 
-¡Listo! Ya tendrás un `README.md` bien configurado para tu repositorio. Si necesitas hacer alguna mod
-Editar
-yarn cache clean
-yarn install
-Si tienes problemas con la ejecución en Android, asegúrate de tener el emulador correctamente configurado o de que un dispositivo Android esté conectado.
+¡Listo! Ya tendrás un `README.md` bien configurado para tu repositorio.
