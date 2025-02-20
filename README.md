@@ -106,14 +106,3 @@ yarn install
 ```
 
 Si tienes problemas con la ejecución en Android, asegúrate de tener el emulador correctamente configurado o de que un dispositivo Android esté conectado.
-
----
-
-Este código Markdown está listo para pegarse directamente en un archivo `README.md` de tu repositorio en GitHub. Sigue estos pasos:
-
-1. Entra a tu repositorio en GitHub.
-2. Haz clic en el botón **Add file** > **Create new file**.
-3. Nombra el archivo como `README.md` y pega el contenido.
-4. Haz clic en **Commit new file**.
-
-¡Listo! Ya tendrás un `README.md` bien configurado para tu repositorio.
